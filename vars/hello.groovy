@@ -1,3 +1,3 @@
-def call(){
-    echo "hello jenkins!"
+def call(Map config = [:]){
+    echo "hello ${config.name} from repo2!"
 }
